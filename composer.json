@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mapkyca/php-ogp": "^1.0"
+    }
+}

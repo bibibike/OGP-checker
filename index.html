@@ -1,0 +1,19 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OGPチェッカー</title>
+</head>
+<body>
+OGPをチェックしたいページのURLを入力してください！
+<form method = "post" id="url_input">
+    <input type = "text" name ="URL">
+</form>
+<button type="submit" formaction="index.php" form="url_input" >URL送信</button>
+
+<form method = "post" id="file_input" enctype="multipart/form-data">
+    <input type = "file" name ="fname">
+</form>
+<button type="submit" formaction="file.php" form="file_input" >送信</button>
+</body>
+</html>
